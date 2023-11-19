@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const mongoURI = process.env.mongoURI;
+const mongoURI = process.env.MONGODB_URI;
 
 
 const initializeDatabase = async () => {
